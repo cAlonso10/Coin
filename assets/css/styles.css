@@ -119,6 +119,18 @@ button{
   text-align: center;
 }
 
+#seccionCOUNTDOWN{
+
+  background-color: rgb(214, 219, 224);
+  
+}
+.section__countdown{
+color: #272525;
+font-size: var(--h1-font-size);
+margin-bottom: 3rem;
+text-align: center;
+}
+
 /*=============== LAYOUT ===============*/
 .container{
   max-width: 968px;
