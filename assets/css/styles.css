@@ -1,5 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -76,6 +77,10 @@ body{
   font-size: var(--normal-font-size);
   background: var(--body-color);
   color: var(--text-color);
+  ::selection{
+    color: #fff;
+    background: #79d9ff;
+  }
 }
 
 h1,h2,h3,h4{
@@ -1010,6 +1015,9 @@ text-align: center;
     left: -3%;
   }
 }
+
+
+
 
 /*=============== KEYFRAMES ===============*/
 @keyframes floating {
