@@ -19,7 +19,7 @@
   --container-color: linear-gradient(136deg, hsl(120, 1%, 15%) 0%, hsl(0, 0%, 3%) 100%);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'StarWars', sans-serif;
   --biggest-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -61,6 +61,12 @@
 }
 
 /*=============== BASE ===============*/
+@font-face {
+  font-family: 'StarWars';
+  src: url('../fonts/starjedi/Starjedi.ttf') format('truetype');
+  /* Puedes agregar otras variantes de la fuente aquí si las tienes, como bold, italic, etc. */
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
