@@ -1,116 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Halloween</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./assets//css/styles.css" />
-    <link
-    rel="shortcut icon"
-    href="assets/img/trick-treat5-img.png"
-    type="image/x-icon"
-  />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-  </head>
-  <body>
-    <!-- #region ENCABEZADO -->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">
-          <h1>STAR WARS</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halloween</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets//css/styles.css" />
+  <link rel="shortcut icon" href="assets/img/trick-treat5-img.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <!-- #region ENCABEZADO -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <h1>STAR WARS</h1>
         <!-- <img
             src="assets/img/logo.svg"
             alt=""
             class="nav__logo-img"
           />-->
-          
-        </a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link" >about</a>
-            </li>
-            <li class="nav__item">
-              <a href="#roadmap" class="nav__link">roadmap</a>
-            </li>
-            <li class="nav__item">
-              <a href="#new" class="nav__link">tokenomics</a>
-            </li>
-            <a href="#" class="button button--ghost">support</a>
-          </ul>
-          <div class="nav__close" id="nav-close">
-            <i class="bx bx-x"></i>
-          </div>
-          <img src="assets/img/nav-img.png" alt="" class="nav__img" />
+
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">about</a>
+          </li>
+          <li class="nav__item">
+            <a href="#roadmap" class="nav__link">roadmap</a>
+          </li>
+          <li class="nav__item">
+            <a href="#new" class="nav__link">tokenomics</a>
+          </li>
+          <a href="#" class="button button--ghost">support</a>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i>
         </div>
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-grid-alt"></i>
-        </div>
-      </nav>
-    </header>
-    <!-- #endregion -->
-    <!-- #region Principal-->
-    <main class="main">
-      <!--Menu inicial-->
-      <section class="home container" id="home">
-        <div class="swiper home-swiper">
-          <div class="swiper-wrapper">
-            <!--1 2 3-->
-            <section class="swiper-slide">
-              <div class="home__content grid">
-                <div class="home__group">
-                  <img
-                    src="assets/img/home1-img.png"
-                    alt=""
-                    class="home__img"
-                  />
-                  <div class="home__indicator"></div>
+        <img src="assets/img/nav-img.png" alt="" class="nav__img" />
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- #endregion -->
+  <!-- #region Principal-->
+  <main class="main">
+    <!--Menu inicial-->
+    <section class="home container" id="home">
+      <div class="swiper home-swiper">
+        <div class="swiper-wrapper">
+          <!--1 2 3-->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="assets/img/home1-img.png" alt="" class="home__img" />
+                <div class="home__indicator"></div>
 
-                  <div class="home__details-img">
-                    <h4 class="home__details-title">The Labu “Reiza”</h4>
-                    <span class="home__details-subtitle">
-                      La calabaza viva</span
-                    >
-                  </div>
-                </div>
-
-                <div class="home__data">
-                  <h3 class="home__subtitle">#1 Fantasma más aterrador</h3>
-                  <h1 class="home__title">
-                    UOOOO <br />
-
-                    TRUCO O <br />
-                    TRATO!!
-                  </h1>
-                  <p class="home__description">
-                    Hi, I'm Reiza, people call me "El Labu". I am currently
-                    trying to learn something new, building my own bike with
-                    parts made only in Malaysia.
-                  </p>
-
-                  <div class="home__buttons">
-                    <a href="#" class="button"> Reservar ahora</a>
-                    <a href="#" class="button--link button--flex">
-                      Audio grabado
-                      <i class="bx bx-right-arrow-alt button__icon"></i
-                    ></a>
-                  </div>
+                <div class="home__details-img">
+                  <h4 class="home__details-title">The Labu “Reiza”</h4>
+                  <span class="home__details-subtitle">
+                    La calabaza viva</span>
                 </div>
               </div>
-            </section>
-           <!-- <section class="swiper-slide">
+
+              <div class="home__data">
+                <h3 class="home__subtitle">#1 Fantasma más aterrador</h3>
+                <h1 class="home__title">
+                  UOOOO <br />
+
+                  TRUCO O <br />
+                  TRATO!!
+                </h1>
+                <p class="home__description">
+                  Hi, I'm Reiza, people call me "El Labu". I am currently
+                  trying to learn something new, building my own bike with
+                  parts made only in Malaysia.
+                </p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button"> Reservar ahora</a>
+                  <a href="#" class="button--link button--flex">
+                    Audio grabado
+                    <i class="bx bx-right-arrow-alt button__icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- <section class="swiper-slide">
               <div class="home__content grid">
                 <div class="home__group">
                   <img
@@ -194,78 +180,66 @@
                 </div>
               </div>
             </section>-->
-          </div>
-          <div class="swiper-pagination"></div>
         </div>
-      </section>
-      <!--Categirias-->
-      <section class="section category">
-        <h2 class="section__title">
-          Susto Favorito <br />
-          Categorias
-        </h2>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--Categirias-->
+    <section class="section category">
+      <h2 class="section__title">
+        Susto Favorito <br />
+        Categorias
+      </h2>
 
-        <div class="category__container container grid">
-          <div class="category__data">
-            <img
-              src="assets/img/NAVE.png"
-              alt=""
-              class="category__img"
-            />
-            <h3 class="category__title">lp</h3>
-            <p class="category__description">
-              burnt
-            </p>
-          </div>
-
-          <div class="category__data">
-            <img
-              src="assets/img/category2-img.png"
-              alt=""
-              class="category__img"
-            />
-            <h3 class="category__title">supply</h3>
-            <p class="category__description">
-              100 Millions
-            </p>
-          </div>
-
-          <div class="category__data">
-            <img
-              src="assets/img/category3-img.png"
-              alt=""
-              class="category__img"
-            />
-            <h3 class="category__title">ALL Liquidity</h3>
-            <p class="category__description">
-              LP
-            </p>
-          </div>
+      <div class="category__container container grid">
+        <div class="category__data">
+          <img src="assets/img/NAVE.png" alt="" class="category__img" />
+          <h3 class="category__title">lp</h3>
+          <p class="category__description">
+            burnt
+          </p>
         </div>
-      </section>
-      <!--Acerca de-->
-      <section class="section about" id="about">
-        <div class="about__container container grid">
-          <div class="about__data">
-            <h2 class="section__title about__title">
-              About Chewaka
-              <br />
-              Night
-            </h2>
-            <p class="about__description">
-              Night of all the saints, or all the dead, is celebrated on October
-              31 and it is a very fun international celebration, this
-              celebration comes from ancient origins, and is already celebrated
-              by everyone.
-            </p>
-            <a href="#" class="button"> Saber más</a>
-          </div>
 
-          <img src="assets/img/chewcoin1.png" alt="" class="about__img" />
+        <div class="category__data">
+          <img src="assets/img/category2-img.png" alt="" class="category__img" />
+          <h3 class="category__title">supply</h3>
+          <p class="category__description">
+            100 Millions
+          </p>
         </div>
-      </section>
-      <!--Truco o trato-->
-     <!-- <section class="section trick" id="trick">
+
+        <div class="category__data">
+          <img src="assets/img/category3-img.png" alt="" class="category__img" />
+          <h3 class="category__title">ALL Liquidity</h3>
+          <p class="category__description">
+            LP
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Acerca de-->
+    <section class="section about" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title about__title">
+            About Chewaka
+            <br />
+            Night
+          </h2>
+          <p class="about__description">
+            Night of all the saints, or all the dead, is celebrated on October
+            31 and it is a very fun international celebration, this
+            celebration comes from ancient origins, and is already celebrated
+            by everyone.
+          </p>
+          <a href="#" class="button"> Saber más</a>
+        </div>
+
+        <img src="assets/img/chewcoin1.png" alt="" class="about__img" />
+      </div>
+    </section>
+    <!--Truco o trato-->
+    <!-- <section class="section trick" id="trick">
         <h2 class="section__title">Truco o trato</h2>
 
         <div class="trick__container container grid">
@@ -354,23 +328,23 @@
           </div>
         </div>
       </section>-->
-      <!--Descuentos-->
-      <section class="section discount">
-        <div class="discount__container container grid">
-          <div class="discount__data">
-            <h2 class="discount__title">
-              Join our meme cryptocurrency <br />
+    <!--Descuentos-->
+    <section class="section discount">
+      <div class="discount__container container grid">
+        <div class="discount__data">
+          <h2 class="discount__title">
+            Join our meme cryptocurrency <br />
 
-              inspired by Chewbacca
-            </h2>
-            <a href="#" class="button">Ir a nuevo</a>
-          </div>
-
-          <img src="assets/img/NAVE1.png" alt="" class="discount__img" />
+            inspired by Chewbacca
+          </h2>
+          <a href="#" class="button">Ir a nuevo</a>
         </div>
-      </section>
-      <!--Tokenomics-->
-      <!--<section class="section new" id="new">
+
+        <img src="assets/img/NAVE1.png" alt="" class="discount__img" />
+      </div>
+    </section>
+    <!--Tokenomics-->
+    <!--<section class="section new" id="new">
         <h2 class="section__title">tokenomics</h2>
 
         <div class="new__container container">
@@ -475,8 +449,8 @@
           </div>
         </div>
       </section>-->
-      <!--Suscribirse-->
-     <!-- <section class="section newsletter">
+    <!--Suscribirse-->
+    <!-- <section class="section newsletter">
         <div class="newsletter__container container">
           <h2 class="section__title">Our Newsletter</h2>
           <p class="newsletter__description">
@@ -493,209 +467,208 @@
           </form>
         </div>
       </section>-->
-    </main>
+  </main>
 
-    <!--Roadmap-->
-    <section id="roadmap">
-      <br><br><br>
-      <h2 class="section__title" >Roadmap</h2>
-      <div class="wrapper" >
-        
-        <div class="center-line">
-          <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
-        </div>
-        <div class="row row-1">
-          <section>
-            <i class="icon fas fa-home"></i>
-            <div class="details">
-              <span class="title">Title of Section 1</span>
-              <span>1st Jan 2021</span>
-            </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-            <div class="bottom">
-              <a href="#">Read more</a>
-              <i>- Someone famous</i>
-            </div>
-          </section>
-        </div>
-        <div class="row row-2">
-          <section>
-            <i class="icon fas fa-star"></i>
-            <div class="details">
-              <span class="title">Title of Section 2</span>
-              <span>2nd Jan 2021</span>
-            </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-            <div class="bottom">
-              <a href="#">Read more</a>
-              <i>- Someone famous</i>
-            </div>
-          </section>
-        </div>
-        <div class="row row-1">
-          <section>
-            <i class="icon fas fa-rocket"></i>
-            <div class="details">
-              <span class="title">Title of Section 3</span>
-              <span>3rd Jan 2021</span>
-            </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-            <div class="bottom">
-              <a href="#">Read more</a>
-              <i>- Someone famous</i>
-            </div>
-          </section>
-        </div>
-        <div class="row row-2">
-          <section>
-            <i class="icon fas fa-globe"></i>
-            <div class="details">
-              <span class="title">Title of Section 4</span>
-              <span>4th Jan 2021</span>
-            </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-            <div class="bottom">
-              <a href="#">Read more</a>
-              <i>- Someone famous</i>
-            </div>
-          </section>
-        </div>
-        <div class="row row-1">
-          <section>
-            <i class="icon fas fa-paper-plane"></i>
-            <div class="details">
-              <span class="title">Title of Section 5</span>
-              <span>5th Jan 2021</span>
-            </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-            <div class="bottom">
-              <a href="#">Read more</a>
-              <i>- Someone famous</i>
-            </div>
-          </section>
-        </div>
-        <div class="row row-2">
-          <section>
-            <i class="icon fas fa-map-marker-alt"></i>
-            <div class="details">
-              <span class="title">Title of Section 6</span>
-              <span>6th Jan 2021</span>
-            </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-            <div class="bottom">
-              <a href="#">Read more</a>
-              <i>- Someone famous</i>
-            </div>
-          </section>
-        </div>
+  <!--Roadmap-->
+  <section id="roadmap">
+    <br><br><br>
+    <h2 class="section__title" >Roadmap</h2>
+    <div class="wrapper" >
+      
+      <div class="hidden center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
       </div>
-    </section>
-    
-
-    <!--Pie de pagina-->
-    <footer class="footer section">
-      <div class="footer__container container grid">
-        <div class="footer__content">
-          <a href="#" class="footer__logo">
-            <img src="assets/img/logo.png" alt="" class="footer__logo-img" />
-            Halloween
-          </a>
-
-          <p class="footer__description">
-            Enjoy the scariest night <br />
-            of your life.
-          </p>
-
-          <div class="footer__social">
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              class="footer__social-link"
-            >
-              <i class="bx bxl-facebook"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              class="footer__social-link"
-            >
-              <i class="bx bxl-instagram-alt"></i>
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              class="footer__social-link"
-            >
-              <i class="bx bxl-twitter"></i>
-            </a>
+      <div class="row row-1">
+        <section class="each-event">
+          <i class="icon fas fa-home"></i>
+          <div class="details">
+            <span class="title">Title of Section 1</span>
+            <span>1st Jan 2021</span>
           </div>
-        </div>
+          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Someone famous</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section class="each-event">
+          <i class="icon fas fa-star"></i>
+          <div class="details">
+            <span class="title">Title of Section 2</span>
+            <span>2nd Jan 2021</span>
+          </div>
+          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Someone famous</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section class="each-event">
+          <i class="icon fas fa-rocket"></i>
+          <div class="details">
+            <span class="title">Title of Section 3</span>
+            <span>3rd Jan 2021</span>
+          </div>
+          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Someone famous</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section class="each-event">
+          <i class="icon fas fa-globe"></i>
+          <div class="details">
+            <span class="title">Title of Section 4</span>
+            <span>4th Jan 2021</span>
+          </div>
+          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Someone famous</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section class="each-event">
+          <i class="icon fas fa-paper-plane"></i>
+          <div class="details">
+            <span class="title">Title of Section 5</span>
+            <span>5th Jan 2021</span>
+          </div>
+          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Someone famous</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section class="each-event">
+          <i class="icon fas fa-map-marker-alt"></i>
+          <div class="details">
+            <span class="title">Title of Section 6</span>
+            <span>6th Jan 2021</span>
+          </div>
+          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Someone famous</i>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+ 
 
-        <div class="footer__content">
-          <h3 class="footer__title">About</h3>
 
-          <ul class="footer__links">
-            <li>
-              <a href="#" class="footer__link">About Us</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Features</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">News</a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="footer__content">
-          <h3 class="footer__title">Our Services</h3>
 
-          <ul class="footer__links">
-            <li>
-              <a href="#" class="footer__link">Pricing</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Discounts</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Shipping mode</a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="footer__content">
-          <h3 class="footer__title">Our Company</h3>
 
-          <ul class="footer__links">
-            <li>
-              <a href="#" class="footer__link">Blog</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">About us</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Our mision</a>
-            </li>
-          </ul>
+
+
+  <!--Pie de pagina-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">
+          <img src="assets/img/logo.png" alt="" class="footer__logo-img" />
+          Halloween
+        </a>
+
+        <p class="footer__description">
+          Enjoy the scariest night <br />
+          of your life.
+        </p>
+
+        <div class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-twitter"></i>
+          </a>
         </div>
       </div>
 
-      <span class="footer__copy">&#169; Halloween page</span>
+      <div class="footer__content">
+        <h3 class="footer__title">About</h3>
 
-      <img src="assets/img/footer1-img.png" alt="" class="footer__img-one" />
-      <img src="assets/img/footer2-img.png" alt="" class="footer__img-two" />
-    </footer>
-    <!-- #endregion -->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
-    </a>
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Features</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">News</a>
+          </li>
+        </ul>
+      </div>
 
-    <!--Scroll para que se revelen los elementos de forma suave-->
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+      <div class="footer__content">
+        <h3 class="footer__title">Our Services</h3>
 
-    <!--Deslizar elementos en una lista-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Discounts</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Shipping mode</a>
+          </li>
+        </ul>
+      </div>
 
-    <script src="./assets/js/main.js"></script>
-  </body>
+      <div class="footer__content">
+        <h3 class="footer__title">Our Company</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Blog</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">About us</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Our mision</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <span class="footer__copy">&#169; Halloween page</span>
+
+    <img src="assets/img/footer1-img.png" alt="" class="footer__img-one" />
+    <img src="assets/img/footer2-img.png" alt="" class="footer__img-two" />
+  </footer>
+  <!-- #endregion -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+  </a>
+
+  <!--Scroll para que se revelen los elementos de forma suave-->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <!--Deslizar elementos en una lista-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/timeline.js"></script>
+  <script src="assets/js/centerline.js"></script>
+</body>
+
 </html>

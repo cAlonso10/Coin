@@ -1029,12 +1029,31 @@ text-align: center;
 
 
 .wrapper{
+  transition: all 0.5s ease;
   max-width: 1080px;
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
   color: rgb(255, 255, 255);
 }
+.show {
+  visibility: visible; 
+  opacity: 1;
+ }
+
+.each-event {
+  transition: all 0.3s ease-in-out;
+}
+
+.each-event.non-focus {
+  color: transparent; 
+  background: transparent; 
+  opacity: 0; 
+  margin-top: 0; 
+  transform: none; 
+}
+
+
 .wrapper .center-line{
   position: absolute;
   height: 100%;
