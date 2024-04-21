@@ -1053,6 +1053,17 @@ text-align: center;
   transform: none; 
 }
 
+.each-event2 {
+  transition: all 0.3s ease-in-out;
+}
+
+.each-event2.non-focus {
+  color: transparent; 
+  background: transparent; 
+  opacity: 0; 
+  margin-top: 0; 
+  transform: none; 
+}
 
 .wrapper .center-line{
   position: absolute;
@@ -1186,6 +1197,8 @@ text-align: center;
     margin: 10px 0;
   }
 }
+
+
 
 /*=============== KEYFRAMES ===============*/
 @keyframes floating {
