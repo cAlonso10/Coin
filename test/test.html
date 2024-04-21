@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Wars Intro</title>
+<link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<div class="star-wars-intro">
+    <p>A long time ago in a galaxy far, far away...</p>
+</div>
+
+<script>
+    // Insertar estrellas aleatorias en el fondo
+    for (let i = 0; i < 500; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        star.style.top = Math.random() * 100 + 'vh';
+        star.style.left = Math.random() * 100 + 'vw';
+        document.body.appendChild(star);
+    }
+</script>
+
+</body>
+</html>
